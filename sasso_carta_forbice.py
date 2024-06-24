@@ -7,7 +7,13 @@ lista_figure = ["sasso", "carta", "forbici"]
 dataCorrente = datetime.datetime.now()
 data_str = dataCorrente.strftime('%m_%d_%y    %H_%M') 
 nome_file1=data_str+ ".csv"
-nick=input("Inserisci il nickname") 
+
+while True:
+    nick=input("Inserisci il nickname") 
+    if nick.isalnum():
+        break
+    else:
+        print("il nick non deve contenre caratteri speciali!")
 
 def gioco():
     vittorie = 0

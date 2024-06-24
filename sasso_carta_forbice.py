@@ -57,6 +57,11 @@ def gioco():
                         sconfitte_totali=sconfitte_totali,)
 
 def salva(path,data_str,vittorie, pareggi, sconfitte):
+    if not os.path.exists('salvataggi'):
+        os.mkdir('salvataggi')
+    
+    os.chdir('salvataggi')
+    
     data={
         "data":[data_str],
         "vittorie":[vittorie],

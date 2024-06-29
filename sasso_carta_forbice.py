@@ -162,30 +162,6 @@ def aggiorna_classifica(path, nick, vittorie_totali, pareggi_totali, sconfitte_t
     df.to_csv(path)
 
 
-# BONUS 5: Scrivi un codice che crei 20 liste con list comprehension fatte in questo modo:
-# [numeroVittorie, numeroPareggi, numeroSconfitte]
-# con ciascun valore estratto a sorte tra 0 e 10
-# Sviluppa poi un algoritmo per ordinare queste 20 liste trovando il primo, secondo e terzo posto
-
-
-# # con la funzione "generatore_di_risultati" crea una lista di liste di risultati randomici
-# def generatore_di_risultati():
-#     # Genera 20 liste con valori casuali tra 0 e 10 per numeroVittorie, numeroPareggi e numeroSconfitte
-#     liste_partite = [[random.randint(0, 10), random.randint(0, 10), random.randint(0, 10)] for _ in range(20)]
-#     return liste_partite
-
-# # con la funzione "stampa_risultati" i valori preseti in una lista di liste
-# def stampa_risultati(liste_partite):
-#   for lista in liste_partite:
-#     print(lista)
-    
-# #main
-# lista_risultati= generatore_di_risultati()
-# stampa_risultati(lista_risultati)
-
-
-
-
 
 
 # main

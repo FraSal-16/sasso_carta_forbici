@@ -9,9 +9,7 @@ lista_figure = ["sasso", "carta", "forbici"]
 dataCorrente = datetime.datetime.now()
 data_str = dataCorrente.strftime('%m_%d_%y    %H_%M') 
 nome_file1=data_str+ ".csv"
-<<<<<<< HEAD
 nick=input("Inserisci il nickname: ") 
-=======
 
 while True:
     nick=input("Inserisci il nickname") 
@@ -19,7 +17,6 @@ while True:
         break
     else:
         print("il nick non deve contenre caratteri speciali!")
->>>>>>> 0c0c0bc42afe39d40c30f870237d3dafba56add8
 
 #funzione "gioco" è dove verrà gestita tutta la perte dell'elaborazione del programma
 def gioco():
@@ -100,16 +97,8 @@ def gioco():
 # pareggi   => pareggi effetutate durante le partite
 # sconfitte => sconfitte effetutate durante le partite
 def salva(path,data_str,vittorie, pareggi, sconfitte):
-<<<<<<< HEAD
     
     #creo un dizionario per gestire i dati da salvare in modo ordinato
-=======
-    if not os.path.exists('salvataggi'):
-        os.mkdir('salvataggi')
-    
-    os.chdir('salvataggi')
-    
->>>>>>> 0c0c0bc42afe39d40c30f870237d3dafba56add8
     data={
         "data":[data_str],
         "vittorie":[vittorie],

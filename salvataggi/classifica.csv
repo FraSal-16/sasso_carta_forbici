@@ -1,4 +1,5 @@
 nick,Vittorie Totali,Sconfitte Totali,Pareggi Totali
+<<<<<<< HEAD:classifica.csv
 pippo,4,4,9
 pluto,0,0,1
 franco,0,1,0
@@ -7,3 +8,7 @@ paperino,0,2,1
 manuel,1,1,2
 ciao,0,1,0
 mauel,1,1,0
+=======
+pippo,2,1,0
+franco,0,2,3
+>>>>>>> 0c0c0bc42afe39d40c30f870237d3dafba56add8:salvataggi/classifica.csv
